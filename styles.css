@@ -164,8 +164,23 @@ p i {
   gap: 1em;
 }
 
-.fa-circle-plus:hover {
+.fa-circle-plus {
+  color: darkgreen;
+}
+
+.fa-circle-minus {
+  color: darkred;
+}
+
+.fa-circle-plus:hover,
+.fa-circle-minus:hover {
   cursor: pointer;
+  opacity: 0.8;
+}
+
+.fa-circle-plus:active,
+.fa-circle-minus:active {
+  transform: scale(0.95);
 }
 
 .plot {
